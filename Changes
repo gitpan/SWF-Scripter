@@ -1,0 +1,7 @@
+0.2 - 23/10/2010
+    - Added simple example.
+    - Added "repeat( XX, $input)" to repeat $input XX times to parser.
+
+0.1 - 19/10/2010
+    - Initial release.
+

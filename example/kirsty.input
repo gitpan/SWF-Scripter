@@ -1,0 +1,20 @@
+# create the movie
+create 400 300
+
+# black background
+clear 0, 0, 0
+
+# load an image
+load 0, 0, kirsty.jpg
+
+# move it 80 times.
+repeat(230, move  0, -1)
+
+# stop the animation
+stop
+
+# finally save the movie
+save output.swf
+
+# all done
+exit

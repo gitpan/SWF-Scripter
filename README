@@ -1,0 +1,30 @@
+                    ===================
+                       SWF::Scripter
+                    ===================
+
+SWF::Scripter implements a domain-specific language for performing
+extremely simple actions in SWF files.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make install
+
+DEPENDENCIES
+
+This module requires the following additional modules:
+
+   Class::Pluggable
+   Class::Accessor::Chained
+   SWF
+   Test::More
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2010 Steve Kemp <steve@steve.org.uk>.  All rights reserved.
+
+This library is free software. You can modify and or distribute it under the same terms as Perl itself.
+
