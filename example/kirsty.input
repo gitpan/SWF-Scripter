@@ -7,9 +7,13 @@ clear 0, 0, 0
 # load an image
 load 0, 0, kirsty.jpg
 
-# move it 80 times.
+# move it many times.
 repeat(230, move  0, -1)
 
+# draw some text.
+font /usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf
+text 150, 250, 0,0,0, "Kirsty"
+repeat(40, move 0, 1 )
 # stop the animation
 stop
 

@@ -1,16 +1,19 @@
 Changes
 bin/swf-scripter
 lib/SWF/Scripter.pm
-lib/SWF/Scripter/Plugin/pause.pm
 lib/SWF/Scripter/Plugin/clear.pm
-lib/SWF/Scripter/Plugin/stop.pm
 lib/SWF/Scripter/Plugin/exit.pm
-lib/SWF/Scripter/Plugin/move.pm
+lib/SWF/Scripter/Plugin/font.pm
 lib/SWF/Scripter/Plugin/load.pm
+lib/SWF/Scripter/Plugin/move.pm
+lib/SWF/Scripter/Plugin/pause.pm
+lib/SWF/Scripter/Plugin/stop.pm
+lib/SWF/Scripter/Plugin/text.pm
 example/Makefile
 example/kirsty.jpg
 example/kirsty.input
 t/swf_scripter.t
+t/swf_scripter_create.t
 LICENSE
 Makefile.PL
 MANIFEST			This list of files

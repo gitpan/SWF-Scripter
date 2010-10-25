@@ -7,20 +7,31 @@ The following primitives are available:
     create 620 460
     # create the movie - width, height
 
+
     clear 0, 0, 0
     # clear(R,G,B) - fill the screen with solid colour.
+
 
     load 0, 0, jane.png
     # load an image at x,y
 
+
     move 0, -1
-    # move the previously loaded image by the x,y offset.
+    # move the previously loaded text _or_ image by the x,y offset.
+
+
+    font /usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf
+    text 150, 250, 0,0,0, "Some text RGB(0,0,0)"
+    # Load a font and draw some black text at the given X,Y co-ordinates.
+
 
     stop
     # stop animation
 
+
     save jane.swf
     # save the movie
+
 
     exit
     # exit the script

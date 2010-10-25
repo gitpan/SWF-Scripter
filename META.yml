@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               SWF-Scripter
-version:            0.2
+version:            0.3
 abstract:           Simple script interface to SWF
 author:
     - Steve Kemp <steve@steve.org.uk>

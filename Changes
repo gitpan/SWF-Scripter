@@ -1,3 +1,7 @@
+0.3 - 25/10/2010
+    - Added POD to each plugin class.
+    - Added font loading & text drawing/moving.
+
 0.2 - 23/10/2010
     - Added simple example.
     - Added "repeat( XX, $input)" to repeat $input XX times to parser.

@@ -42,7 +42,7 @@ The LICENSE file contains the full text of the license.
 package SWF::Scripter;
 
 use vars qw($VERSION);
-our $VERSION = "0.2";
+our $VERSION = "0.3";
 
 # turn on perl's safety features
 use strict;

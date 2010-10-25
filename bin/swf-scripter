@@ -22,7 +22,7 @@ swf-scripter - Create simple animations via a script
 swf-scripter is a simple wrapper around the B<SWF::Scripter> library,
 and it allows for simple animations or slideshows to be created.
 
-Usage is as simple as given an input file as a parameter:
+Usage is as simple as giving the name of an input file as a parameter:
 
 =for example begin
 
